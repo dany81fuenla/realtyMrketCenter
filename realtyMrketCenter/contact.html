@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <script src="https://kit.fontawesome.com/581b033367.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <!--caja con el menu contraido-->
+        <div class="menu">menú
+            <div id="row1"></div>
+            <div id="row2"></div>
+            <div id="row3"></div>
+            <!--menu expandido-->
+            <div id="menu_visible">
+                <div id="inicio">
+                    <p><a href="./index.html">inicio</a></p>
+                   </div>
+               <div id="inmuebles">
+                <p><a href="#">inmuebles</a></p>
+                    <div id="alquiler">
+                        <p><a href="#">alquiler</a></p>
+                    </div>
+                    <div id="alquiler">
+                        <p><a href="#">venta</a></p>
+                    </div>
+                </div> 
+                    <p><a href="#">conocenos</a></p>
+                    <p><a href="./contact.html">contacto</a></p>
+            </div>
+        </div>
+        <!--boton para cambio e color del body-->
+        <div class="switch-container">
+            <input type="checkbox" id="switch">
+            <label for="switch" class="lbl"></label>
+           </div>
+           <!--menu de redes sociales-->
+        <div class="social">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <!--banner con la foto de la ciudad-->
+    </header>    
+   <h2>contacto</h2>
+    <form class="form" action="./index.html" method="get">
+        <div class="form-container">
+            <fieldset class="fieldset">contacto  
+                <div>
+                    <label for="nombre" >Nombre:</label>
+                    <input type="text" name="nombre" required><br><br>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" name="apellidos"><br><br>
+                    <label for="mail">E-mail:</label>
+                    <input type="mail" name="mail" required><br><br>
+                    <label for="comment">comentarios</label>
+                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                  
+           </div> 
+           <input type="submit" value="enviar" id="submit">
+            </fieldset>
+       </div>
+    </form>
+</body>
+<!--comienza el footer-->
+<footer class="column"> 
+        <div class="footer">
+            <p>creado por Daniel moreno</p>
+            <address>jerusalen27, aranjuez</address>
+            <address>danymoreno1981@msn.com</address>
+        </div>
+        <div class="footer">
+            <p>creado por Daniel moreno</p>
+            <address>jerusalen27, aranjuez</address>
+            <address>danymoreno1981@msn.com</address>
+        </div>
+        <div class="footer">
+            <div class="social">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>  
+</footer>
+<script src="./script.js"></script>
+</html>
